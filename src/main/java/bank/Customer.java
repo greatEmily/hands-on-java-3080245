@@ -5,9 +5,9 @@ public class Customer {
   private String name;
   private String username;
   private String password;
-  private String accountId;
+  private int accountId;
 
-  public Customer(int id, String name, String username, String password, String accountID){
+  public Customer(int id, String name, String username, String password, int accountID){
     setId(id);
     setName(name); 
     setUsername(username);
@@ -39,10 +39,10 @@ public class Customer {
   public void setPassword(String password) {
     this.password = password;
   }
-  public String getAccountId() {
+  public int getAccountId() {
     return accountId;
   }
-  public void setAccountId(String accountId) {
+  public void setAccountId(int accountId) {
     this.accountId = accountId;
   }
 
